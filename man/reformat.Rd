@@ -12,11 +12,16 @@ reformat(obj, ...)
 
 \method{reformat}{default}(obj, format, ...)
 
-\method{reformat}{character}(obj, format, ...)
+\method{reformat}{character}(obj, format, ..., verbose = FALSE)
 
-\method{reformat}{factor}(obj, format, ...)
+\method{reformat}{factor}(obj, format, ..., verbose = FALSE)
 
-\method{reformat}{list}(obj, format, ...)
+\method{reformat}{list}(
+  obj,
+  format,
+  ...,
+  verbose = get_arg("dunlin.reformat.verbose", "R_DUNLIN_REFORMAT_VERBOSE", FALSE)
+)
 }
 \arguments{
 \item{obj}{(\code{character}, \code{factor} or \verb{list of data.frame}) to reformat.}
@@ -32,6 +37,8 @@ the rule.
 }}
 
 \item{format}{(\code{rule}) or (\code{list}) of \code{rule} depending on the class of obj.}
+
+\item{verbose}{(\code{flag}) whether to print the format.}
 }
 \value{
 (\code{character}, \code{factor} or \verb{list of data.frame}) with remapped values.
@@ -51,7 +58,6 @@ the variables listed under the \code{all_dataset} keyword will be reformatted wi
 data set except where another rule is specified for the same variable under a specific data set name.
 }
 \examples{
-
 # Reformatting of character.
 obj <- c("a", "b", "x", NA, "")
 attr(obj, "label") <- "my label"
@@ -60,7 +66,6 @@ format <- rule("A" = "a", "NN" = NA)
 reformat(obj, format)
 reformat(obj, format, .string_as_fct = FALSE, .to_NA = NULL)
 
-
 # Reformatting of factor.
 obj <- factor(c("first", "a", "aa", "b", "x", NA), levels = c("first", "x", "b", "aa", "a", "z"))
 attr(obj, "label") <- "my label"
@@ -68,7 +73,6 @@ format <- rule("A" = c("a", "aa"), "NN" = c(NA, "x"), "Not_present" = "z", "Not_
 
 reformat(obj, format)
 reformat(obj, format, .na_last = FALSE, .to_NA = "b", .drop = FALSE)
-
 
 # Reformatting of list of data.frame.
 df1 <- data.frame(
