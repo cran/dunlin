@@ -1,3 +1,7 @@
+# dunlin 0.1.9
+
+* Change package maintainer to Joe Zhu.
+
 # dunlin 0.1.8
 
 * Rules specified under the `all_datasets` keyword in a format list will apply to every data set of the reformatted object unless specified otherwise.

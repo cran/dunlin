@@ -1,6 +1,6 @@
-969d802c6398ff6168ae6388b21f10ac *DESCRIPTION
+3e78a00632af78afc38edf2eedb2d989 *DESCRIPTION
 d34b9b88b5f496d3f24e8997c06a86a6 *NAMESPACE
-63aece9cfd457d7c8889fc68ee5beade *NEWS.md
+91c899ff5357d6ffad8e582458d25b5a *NEWS.md
 d7124a5521a688bd10ccc57c5e768087 *R/assertions.R
 eee957aa0aea240b4d7110c88cbdcdee *R/co_relevels.R
 10f2f388d6d07384c9c7d12ac06e3981 *R/cut_by_group.R
@@ -18,7 +18,7 @@ ee1e4c2c28dd29cf3b8361ae3f188e5a *R/rules.R
 e8c1f8927163822ac70a6c700e8aea17 *R/zzz.R
 2799b6b0f568bd622c79d3e4a2a2e0e6 *README.md
 1e146bcfe722c6695f5a629a0da50bdf *build/vignette.rds
-82793e438676459e8a79fcada217e7ed *inst/WORDLIST
+6ab5fd8c9384420114dbcca08a4c0dfa *inst/WORDLIST
 6f286984b72e6c90b2af2529f6d48cce *inst/doc/Reformatting.R
 4b6aa8c01dac5b803036c60a1b1946fe *inst/doc/Reformatting.Rmd
 e6254681a353855463c4a801b52a87bd *inst/doc/Reformatting.html
@@ -35,7 +35,7 @@ dea9a0e5cbc1632130a49edebf21df26 *man/co_relevels.Rd
 2f15d45c17d9d8d6297be4be8a852a86 *man/combine_list_rules.Rd
 9aeb6e113f49ae6a0533e39f45417d02 *man/combine_rules.Rd
 c6cf4dddfe22a13f53f9bb9f72fd952f *man/cut_by_group.Rd
-d2ba701db546a01d433402d8a66fa0e2 *man/dunlin-package.Rd
+9925bbb37a720ff4c2def37612b3aac2 *man/dunlin-package.Rd
 18dd4570989f29c8680ea30d7fa70f84 *man/get_arg.Rd
 e4c15e323e208ac7b589bf160385deaa *man/get_log.Rd
 7af1bd07ac5cdbdf63826545ce27bc45 *man/h_df_explicit.Rd
