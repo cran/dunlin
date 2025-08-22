@@ -1,6 +1,6 @@
-54981de10ca90854d6a7872f8982a1b5 *DESCRIPTION
-1b7788daf4c6f273e337ee2cd2152e39 *NAMESPACE
-e7e32c58a6c8cf884dc8c05b9a1210c9 *NEWS.md
+036cec53d04002c6bead50c5b962def3 *DESCRIPTION
+11fe0338fb065c24c9e3959398b1fcfe *NAMESPACE
+63be707ead8d18a0208aa696711db051 *NEWS.md
 30f5bfed32a1e7b854379f0b609166d5 *R/assertions.R
 c6642f5d9085bbeebc8b1fe4f946ca50 *R/co_relevels.R
 694cbba8e672cd7f2490f3bf79a2ae46 *R/cut_by_group.R
@@ -13,6 +13,7 @@ f69d9353c40ecff370f50de40ce1ea2b *R/pivot.R
 36dc4230ee0c8bac106e48822de61468 *R/reformat.R
 c28992c0728f40a3efdcf2f3a0f11066 *R/render_safe.R
 6e3fed85427a611c126881549c214d2b *R/rules.R
+3e645a1356a9eeb5076e48e8887a999a *R/subject_level_flag.R
 80a499ba2fecc6d444dbf3728d67d2d2 *R/unite.R
 d97064b2de49cd86c0ffc6c1bc6b7de2 *R/utils.R
 885edfe7916c4a0f3ee73f04a52da5d4 *R/zzz.R
@@ -55,6 +56,7 @@ bb238e8ad294df7602ff089b8cf8cb7a *man/remove_whisker.Rd
 258a3902b367be9c0175735dd77ec65f *man/rule.Rd
 cca51c02f1ac7ed94830232444641de6 *man/safe_transformer.Rd
 baad3f8f2574febfd8251703c5950dc6 *man/show_whisker.Rd
+c530a719cf7742b40c942c862250b6f3 *man/subject_level_flag.Rd
 2d8a359295625d253a9ade6e6ca2fdc1 *tests/testthat.R
 cac81c382a0b4a05341ad7d77feca039 *tests/testthat/_snaps/filter.md
 2a018e4858637f57d7b156235a0b2263 *tests/testthat/_snaps/propagate.md
@@ -71,6 +73,7 @@ ce5733c65cedb0c6a07c30c9d30a8996 *tests/testthat/test-propagate.R
 2648d0bb5f25a86e582786e6224d9352 *tests/testthat/test-reformat.R
 74eb0470ba322d5ba12e3579a00fc53d *tests/testthat/test-render_safe.R
 9b07a9d34d1fde7c485148614dbe5b52 *tests/testthat/test-rules.R
+c8607663fe7eab374098af7d2d4dd519 *tests/testthat/test-subject_level_flag.R
 5edd4a4b32adbb1ee058bcb5d89ade71 *tests/testthat/test-unite.R
 8a61203d3b00a26e6c6280bb2089e129 *tests/testthat/test-utils.R
 879a8e4d5cabeba790a1b16ea00b6d12 *vignettes/Reformatting.Rmd
